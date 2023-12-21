@@ -5,10 +5,9 @@ function Header(){
     const [name, setName] = useState("");
     return(
         <div className="main">
-        <div className="main-container">
-            
+
         <div className="flex-main-container">
-           
+
 
         <article>
             <h1>Little Lemon</h1>
@@ -19,17 +18,16 @@ function Header(){
             </div>
 
         </article>
-        
+
         <div className="boxImg">
             <img className="restPic" src={restaurantPic}/>
             </div>
-        
-        </div>
-        
-        
+
         </div>
 
         </div>
+
+
     )
 }
 

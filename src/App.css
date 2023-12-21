@@ -11,8 +11,6 @@ body {
   list-style: none;
   font-family:'Times New Roman', Times, serif;
   font-weight: bold;
-  
-
 }
 .flex-nav-container a {
   text-decoration: none;
@@ -25,17 +23,23 @@ body {
 
 }
 .main-container{
+  /* width: 800px;
+  margin: auto;
+  color: white; */
+}
+
+
+
+.flex-main-container{
   width: 800px;
   margin: auto;
   color: white;
-}
-.main-container h1{
-  color: #F4CE14;
-}
-
-.flex-main-container{
   display: flex;
   justify-content: space-between;
+}
+
+.flex-main-container h1 {
+  color: #F4CE14;
 }
 .btnSubmit{
   background-color: #F4CE14;
@@ -84,7 +88,7 @@ article{
   display: flex;
   justify-content: space-evenly;
   border-radius: 15px;
-  
+
  }
 
 
@@ -100,7 +104,7 @@ article{
  .oh{
   float: right;
   color: lightsalmon;
- 
+
  }
  .check{
   padding: 15px;
@@ -119,7 +123,7 @@ article{
  p{
   max-width: 20ch;
  }
-
+/* ********************************************* */
  .main-Center{
   width: 100%;
   margin: auto;
@@ -128,6 +132,80 @@ article{
  .center{
   text-align: center;
  }
+
+ .testimonial-menu{
+  width: 800px;
+  padding: 30px;
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+ }
+.tItems h3{
+  color: #F4CE14;
+}
+ .tItems{
+  height: 200px;
+  width: 200px;
+  background-color: #495e57;
+  margin: 10px;
+  border-radius: 15px;
+  padding: 10px;;
+  
+ }
+.starRatingImg{
+  height: 100px;
+}
+.userProfileImg{
+  height: 80px;
+  border-radius: 10px;
+}
+
+.chefMenu{
+  width: 800px;
+  margin: auto;
+}
+.flexChefMenu{
+  width: 800px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.flexChefMenu p{
+  max-width: 30ch;
+}
+.chefImg{
+  height: 300px;
+  width: 400px;
+  border-radius: 15px;
+}
+
+
+/* ************************************************ */
+
+.footer{
+  width: 100%;
+  background-color: lightgray;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footerContainer {
+  display: flex;
+  width: 800px;
+  margin: auto;
+  justify-content: space-between;
+  /* background-color: aqua; */
+}
+.footer-Img{
+  height: 150px;
+  width: 70px;
+  padding-top: 20px;
+ }
+
+.footerContainer .footerDiv{
+  padding: 0%;
+}
+
+
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
