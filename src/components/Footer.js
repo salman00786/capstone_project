@@ -3,12 +3,12 @@ import footerImg from "../Image/Asset 20@4x.png";
 function Footer(){
     return(
         <footer className="footer">
-           
+
             <div className="footerContainer">
             <div className="footerDiv footerImage">
                     <img className="footer-Img" src={footerImg}/>
                 </div>
-                
+
             <div className="footerDiv socialMedia">
               <h3>Social Media Links</h3>
                  <ul>

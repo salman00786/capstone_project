@@ -15,21 +15,11 @@ body {
 .flex-nav-container a {
   text-decoration: none;
 }
-
 .main{
   width: 100%;
   background-color: #495e57;
   padding: 10px;
-
 }
-.main-container{
-  /* width: 800px;
-  margin: auto;
-  color: white; */
-}
-
-
-
 .flex-main-container{
   width: 800px;
   margin: auto;
@@ -52,29 +42,25 @@ body {
 article{
   max-width: 40ch;
 }
-
 .restPic{
   float: right;
   height: 250px;
   width: 220px;
   border-radius: 10%;
-
 }
-
 /* ****************************************** */
 .mainMenu{
   width: 800px;
   margin: auto;
 }
-
 .mainMenuContainer{
   display: flex;
   justify-content: space-between;
 }
 .menuBtnContainer{
   padding-top: 30px;
- }
- .menuBtn{
+}
+.menuBtn{
   background-color: #F4CE14;
   border: #F4CE14;
   height: 40px;
@@ -82,16 +68,11 @@ article{
   border-radius: 15px;
   font-weight: bold;
  }
-
-
  .menu-list{
   display: flex;
   justify-content: space-evenly;
   border-radius: 15px;
-
  }
-
-
  .itemsImage{
   height: auto;
   width: 250px;
@@ -100,11 +81,9 @@ article{
  .ig3{
   height: 168px;
  }
-
  .oh{
   float: right;
   color: lightsalmon;
-
  }
  .check{
   padding: 15px;
@@ -112,14 +91,11 @@ article{
  .texting{
   font-weight: bold;
  }
-
  .menuItems{
   margin: 10px 0px;
   border-radius: 10px;
   background-color: lightgrey;
  }
-
-
  p{
   max-width: 20ch;
  }
@@ -132,7 +108,6 @@ article{
  .center{
   text-align: center;
  }
-
  .testimonial-menu{
   width: 800px;
   padding: 30px;
@@ -150,8 +125,7 @@ article{
   margin: 10px;
   border-radius: 15px;
   padding: 10px;;
-  
- }
+}
 .starRatingImg{
   height: 100px;
 }
@@ -159,7 +133,6 @@ article{
   height: 80px;
   border-radius: 10px;
 }
-
 .chefMenu{
   width: 800px;
   margin: auto;
@@ -178,10 +151,7 @@ article{
   width: 400px;
   border-radius: 15px;
 }
-
-
 /* ************************************************ */
-
 .footer{
   width: 100%;
   background-color: lightgray;
@@ -193,30 +163,24 @@ article{
   width: 800px;
   margin: auto;
   justify-content: space-between;
-  /* background-color: aqua; */
 }
 .footer-Img{
   height: 150px;
   width: 70px;
   padding-top: 20px;
  }
-
 .footerContainer .footerDiv{
   padding: 0%;
 }
-
-
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -227,11 +191,9 @@ article{
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
 .App-link {
   color: #61dafb;
 }
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

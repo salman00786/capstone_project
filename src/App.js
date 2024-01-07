@@ -1,17 +1,20 @@
 // import logo from './logo.svg';
 import './App.css';
-import Header from "./components/Header"
+import Home from './components/Home';
 import Nav from "./components/Nav";
-import Main from "./components/Main"
-import Footer from "./components/Footer";
+import Reservation from './components/Reservation';
+import { Routes, Route } from 'react-router-dom';
+
 
 function App() {
   return (
     <>
-      <Nav/>
-      <Header/>
-      <Main/>
-      <Footer/>
+    <Nav/>
+    <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/reservation' element={<Reservation/>}/>
+    </Routes>
+     
     </>
   );
 }

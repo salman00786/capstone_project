@@ -4,15 +4,18 @@
  import starRatings from "../Image/fourStarImg.png";
  import userPrfile from "../Image/userProfile.png"
  import chefPic from "../Image/Mario and Adrian b.jpg"
+import { useState } from "react";
  
  function Main(){
+const [onlineMenu,setOnlineMenu] = useState("");
+
     return(
         <main className="">
           <div className="mainMenu">
           <div className="mainMenuContainer">
           <h1>This weeks specials!</h1>
           <div className="menuBtnContainer">
-            <button className="menuBtn">Online Menu</button>
+            <button className="menuBtn" onClick={() => {setOnlineMenu(console.log("Clickeds!!!"))}}>Online Menu</button>
           </div>
           </div>
           <div className="menu-list">
